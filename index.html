@@ -135,24 +135,412 @@
         <header>
           <h2>Archetypes</h2>
         </header>
+        
+        <div>
+          <h3>Street Samurai</h3>
+          <p>The Street Samurai is a freelance operative to follows a code of street honor. They are learned in the ways of the traditional samurai warriro and in the practices of modern combat. Samurai sell their skills for profit and work to take out the dishonorable scum that seem to breed in the urban sprawl.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Body and Strength or Quickness</li>
+             <li>Key Skill: Close or Ranges Combat (or both), Throwing Weapons, Dodge</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Mage</h3>
+          <p>Mages are specialized in the casting of spells but that doesn't mean they can't shoot guns as well. Rather, magic is the center of their life. Their spells reflect a pure balance of the mana-sphere and cover a wide range of magical effects from offensive damage attacks, to character augmentation or degradation spells, to healing spells.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Willpower</li>
+             <li>Key Skill: Spellcasting</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Decker</h3>
+          <p>Deckers use a cyberdeck to jack into the Matrix - the worldwide information grid and computer network. By projecting their minds into the electronic world, deckers can find secrets others keep hidden away. They use programs and Expert Systems to fight off the protections that megacorporations place in their way.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Intelligence</li>
+             <li>Key Skill: Decking</li>
+             <li>Key Specialization: Expert Systems</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Shaman</h3>
+          <p>Shamans believe that their magic comes from a great totem spirit that guides their life path - Bear, Cat, Coyote, Eagle or Racoon. Shamans relationships with their totems allow them to summon spirits and command them to do their bidding. Shamans have the skill to conjure spells that mages cannot.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Charisma</li>
+             <li>Key Skill: Spirit Summoning (increasing this skill grants a shaman a totem benefit), Conjuring</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Rigger</h3>
+          <p>Riggers use cybertech to jack their mind into and control small robot-like vehicles called drones. Riggers use their rigging abilities to provide surveillance, support, and extra fire-power when required.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Intelligence</li>
+             <li>Key Skill: Drone Control</li>
+             <li>Key Specialization: Drone Combat</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Physical Adept</h3>
+          <p>Adepts are magically-active characters who focus their magic internally to develop to their utmost potential - physically, mentally and spiritually. As Adepts unlock new abilities, they become honed physical machines, using their magic to enchance their close combat abilities.</p>
+          <code>
+           <ul>
+             <li>Key Attributes: Body, Strength, Willpower</li>
+             <li>Key Skill: Chi Casting</li>
+           </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>None</h3>
+          <p>If you feel comfortable with the way characters are built in Shadowrun, you may create your own character by mixing skills and attributes as you wish</p>
+        </div>
+        
       </section>
       
-      <section class="main-section" id="Attributes">
+      <section class="main-section" id="Attributes_and_Skills">
         <header>
-          <h2>Attributes</h2>
+          <h2>Attributes and Skills</h2>
+          <p>Numbers in the Specialization sections refer to the skill level at which it becomes available.</p>
         </header>
+        
+        <div>
+          <h3>Body</h3>
+          <p>Determines resistance to physical damanage. Increases chance to take reduced damage from attacks. For every point of Body, Hit Points increase by 10.</p>
+          <code>
+            Maximums
+            <ul>
+              <li>Humans and Elves: 9</li>
+              <li>Dwarves: 11</li>
+              <li>Orks: 14</li>
+              <li>Trolls: 17</li>
+            </ul>
+          </code>
+        </div>
+        
+        <div>
+          <h3>Quickness</h3>
+          <p>Used to calculate the chance to hit in ranged combat. Reduces the chance to be hit by enemy physical attacks.</p>
+          <div class="skill">
+            <h4>Ranged Combat</h4>
+            <p>Main component used to calculate the chance to hit with ranged weapons. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">3</span> Additional Weapon Slot (if not yet unlocked)</li>
+                <li><span class="level">4</span> Overwatch (if not yet unlocked)</li>
+              </ul>
+            </code>
+            
+            <div class="skill">
+              <h4>Pistol</h4>
+              <p>Increases the chance for greater than normal damange when using a pistol to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Aimed Shot: Increases To Hit by 15%, Cooldown: 3 RNDS</li>
+                  <li><span class="level">2</span> Critical Damage Percentage Visible</li>
+                  <li><span class="level">4</span> Auto Reload: Reloading Ammon costs 0 AP</li>
+                  <li><span class="level">5</span> Dead Eye: Increase To Hit by 20%, Cooldown: 3 RNDS</li>
+                  <li><span class="level">6</span> Double Tap: 2 attacks on a single target, Increased Critical Hit chance</li>
+                  <li><span class="level">7</span> Chainshot: Attack 3 different targets in a single attack</li>
+                  <li><span class="level">9</span> Disarm: Forces target to drop weapon</li>
+                </ul>
+              </code>
+            </div>
+            
+            <div class="skill">
+              <h4>SMG</h4>
+              <p>Increases the chance for greater than normal damange when using a SMG to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Spray and Pray: Hits adjacent targets, but accuracy is reduced</li>
+                  <li><span class="level">2</span> Critical Damage Percentage visible</li>
+                  <li><span class="level">3</span> Aimed Shot: Increases To Hit by 10%, Cooldown: 3 RNDS</li>
+                </ul>
+              </code>
+            </div>
+            
+            <div class="skill">
+              <h4>Shotgun</h4>
+              <p>Increases the chance for greater than normal damange when using a shotgun to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Kneecap: +1 AP damage, -6 HP damage, can hit multiple targets, Cooldown: 2 RNDS</li>
+                  <li><span class="level">2</span> Critical Damage Percentage visible</li>
+                  <li><span class="level">3</span> Aimed Shot: Increases To Hit by 15%, Cooldown: 3 RNDS</li>
+                  <li><span class="level">5</span> Wide Load: Wider than normal spread, reduced critical chance</li>
+                </ul>
+              </code>
+            </div>
+            
+            <div class="skill">
+              <h4>Rifle</h4>
+              <p>Increases the chance for greater than normal damange when using a rifle to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Aimed Shot: Increases To Hit by 15%, Cooldown: 3 RNDS</li>
+                  <li><span class="level">2</span> Critical Damage Percentage visible, Burst Fire available (weapon permitting)</li>
+                  <li><span class="level">3</span> Full Auto available (weapon permitting)</li>
+                  <li><span class="level">5</span> Dead Eye: Increase To Hit by 20%, Cooldown: 3 RNDS</li>
+                  <li><span class="level">7</span> Headshot: Increases chance of critical hit, reduces accuracy, Cooldown: 2 RNDS</li>
+                </ul>
+              </code>
+            </div>
+            
+          </div>
+          
+          <div class="skill">
+            <h4>Dodge</h4>
+            <p>Dodge helps to reduce the chance to be hit by physical attacks.</p>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Strength</h3>
+          <p>Used to calculate the chance to hit with melee or throwing weapons. Also determines how far a grenade can be thrown.</p>
+          
+          <div class="skill">
+            <h4>Close Combat</h4>
+            <p>Main component used to calculate the chance to hit with melee weapons and unarmed combat. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">3</span> Additional Weapon Slot (if not yet unlocked)</li>
+                <li><span class="level">4</span> Overwatch (if not yet unlocked)</li>
+                <li><span class="level">6</span> Defense Bonus: Gain a defense bonus to all non-magical close combat attacks</li>
+              </ul>
+            </code>
+            
+            <div class="skill">
+              <h4>Melee Weapons</h4>
+              <p>IIncrease the chance for greater than normal damange when using melee weapons to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Thrust: Increases HP damage, 15% to hit</li>
+                  <li><span class="level">2</span> Critical Damage Percentage visible</li>
+                  <li><span class="level">3</span> Pommel Strike: Only AP damage</li>
+                  <li><span class="level">5</span> Cleaver: Can strike multiple targets in range</li>
+                  <li><span class="level">8</span> Disarm: Forces target to drop weeapon</li>
+                </ul>
+              </code>
+            </div>
+            
+            <div class="skill">
+              <h4>Unarmed</h4>
+              <p>Increase the chance for greater than normal damange when using fists to attack. Increasing this skill unlocks special abilities.</p>
+              <code>
+                Special Abilities
+                <ul>
+                  <li><span class="level">1</span> Wound: Increase Damage by 1</li>
+                  <li><span class="level">2</span> Critical Damage Percentage visible</li>
+                  <li><span class="level">4</span> Roundhouse Kick: Can strike multiple targets in range</li>
+                  <li><span class="level">8</span> Disarm: Forces target to drop weeapon</li>
+                </ul>
+              </code>
+            </div>
+          </div>
+          
+          <div class="skill">
+            <h4>Throwning Weapons</h4>
+            <p>Main component used to calculate the chance to hit a target area with a thrown grenade. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">5</span> Grenade use reduced to 1 AP</li>
+              </ul>
+            </code>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Intelligence</h3>
+          <p>Used in Decking or Rigging to calculate the chance to hit with computer programs or drones. Also used to reduce the chance to be hit by enemy programs in the Matrix.</p>
+          
+          <div class="skill">
+            <h4>Bitoech</h4>
+            <p>Grants a bonus to the Hit Points recovered when using a MedKit.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">2</span> Enemy HP visible</li>
+              </ul>
+            </code>
+          </div>
+          
+          <div class="skill">
+            <h4>Decking</h4>
+            <p>Required for Decking. Main component to calculate the chance to hit enemy computer programs or deckers. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">1</span> Can equip Sony CTY-360</li>
+                <li><span class="level">2</span> Mark Target I: Increases your chance to hit enemies by 10% when used</li>
+                <li><span class="level">3</span> Can equip Renraku Kraftwork-1</li>
+                <li><span class="level">4</span> Mark Target II: Increases your chance to hit enemies by 15% when used</li>
+                <li><span class="level">5</span> Can equip FuchiVirtuaX</li>
+                <li><span class="level">6</span> Mark Target III: Increases your chance to hit enemies by 20% when used</li>
+                <li><span class="level">7</span> Can equip Fairlight Excalibur</li>
+              </ul>
+            </code>
+            
+            <div class="skill">
+              <h4>ESP Control</h4>
+              <p>Increases the power of the Decker's Expert Systems programs in the Matrix.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill">
+          <h4>Drone Control</h4>
+          <p>Allows the Rigger access to more and different drones and abilities.</p>
+          <code>
+            Special Abilities
+            <ul>
+              <li><span class="level"></span> Can equip Class C drones</li>
+              <li><span class="level"></span> Can equip Class B drones</li>
+              <li><span class="level"></span> Able to equip 2 drones</li>
+              <li><span class="level"></span> Can equip Class A drones</li>
+              <li><span class="level"></span> Can equip Class S drones</li>
+            </ul>
+          </code>
+          
+          <div class="skill">
+            <h4>Drone Combat</h4>
+            <p>Adds abilities and bonuses to a Rigger's drones.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">1</span> Drone Armor I: +1 Armor</li>
+                <li><span class="level">2</span> Drone Accuracy I: +5% Accuracy</li>
+                <li><span class="level">3</span> Drone Dodge I: +1 Dodge</li>
+                <li><span class="level">4</span> Drone Damage I: +2 HP damage</li>
+                <li><span class="level">1</span> Drone Armor II: +2 Armor</li>
+                <li><span class="level">6</span> Drone AP I: +1 AP Bonus</li>
+                <li><span class="level">7</span> Drone Accuracy II: +10% Accuracy, Drone Damage II: +4 HP damage</li>
+                <li><span class="level">8</span> Drone Dodge II: +2 Dodge </li>
+                <li><span class="level">9</span> Drone AP II: +2 AP Bonus </li>
+              </ul>
+            </code>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Willpower</h3>
+          <p>Used to calculate the chance to hit with magical attacks. Also used to reduce the chance to be hit by enemy magical attacks.</p>
+          
+          <div class="skill">
+            <h4>Spellcasting</h4>
+            <p>Main component to calculate the chance to hit with certain spells. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">2</span> Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">3</span> Ley Lines visible</li>
+                <li><span class="level">4</span> Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">6</span> Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">7</span> Ley Lines visible through FOW</li>
+              </ul>
+            </code>
+          </div>
+          
+          <div class="skill">
+            <h4>Chi Casting</h4>
+            <p>Main component to calculate the chance to hit with Adept powers. Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">1</span> Can Equip Killing Hands</li>
+                <li><span class="level">2</span> Can Equip Magic Resistance I/Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">3</span> Can Equip Man Fist/Chi Focus: 2 attacks on a single target with a melee weapon</li>
+                <li><span class="level">4</span> Can Equip Stride/Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">5</span> Can Equip Counterstrike</li>
+                <li><span class="level">6</span> Can Equip Magic Resistance II/Increase spellbook slot (if not yet unlocked)/Chi Onslaught: 3 attacks on a single target with a melee weapon</li>
+                <li><span class="level">7</span> Can Equip Quck Strike</li>
+                <li><span class="level">8</span> Can Equip Mystic Armor</li>
+                <li><span class="level">9</span> Can Equip Pain Resistance</li>
+                <li><span class="level">10</span> Can Equip Magic Resistance III</li>
+              </ul>
+            </code>
+          </div>
+        </div>
+        
+        <div>
+          <h3>Charisma</h3>
+          <p></p>
+          <code>
+            Special Abilities
+            <ul>
+              <li><span class="level">2</span> New etiquette</li>
+              <li><span class="level">4</span> New etiquette</li>
+              <li><span class="level">6</span> New etiquette</li>
+              <li><span class="level">8</span> New etiquette</li>
+              <li><span class="level">10</span> New etiquette</li>
+              <li><span class="level">12</span> New etiquette</li>
+            </ul>
+          </code>
+          
+          <div class="skill">
+            <h4>Spirit Summoning</h4>
+            <p> Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">1</span> Spirit summoning points visible</li>
+                <li><span class="level">2</span> Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">3</span> Totem choice available</li>
+                <li><span class="level">4</span> Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">5</span> Can summon 2 spirits from the same summoning point</li>
+                <li><span class="level">6</span> Increase spellbook slot (if not yet unlocked)</li>
+              </ul>
+            </code>
+            
+            <div class="skill">
+              <h4>Spirit Control</h4>
+              <p> Increasing this skill unlocks special abilities.</p>
+            </div>
+          </div>
+          
+          <div class="skill">
+            <h4>Conjuring</h4>
+            <p> Increasing this skill unlocks special abilities.</p>
+            <code>
+              Special Abilities
+              <ul>
+                <li><span class="level">2</span> Can equip Air Barrier/Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">4</span> Can equip Lightning Barrier/Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">6</span> Can equip Fire Barrier/Increase spellbook slot (if not yet unlocked)</li>
+                <li><span class="level">8</span> Can equip Hellstorm Barrier</li>
+              </ul>
+            </code>
+          </div>
+          
+        </div>
+        
       </section>
       
-      <section class="main-section" id="Skills">
-        <header>
-          <h2>Skills</h2>
-        </header>
-      </section> 
-       
       <section class="main-section" id="Reference">
         <header>
           <h2>Reference</h2>
         </header>
+        <p>All text comes from the <a href="https://store.steampowered.com/app/234650/Shadowrun_Returns/">Store Page on Steam</a> or from within the game itself.</p>
       </section>
   
     </main>
