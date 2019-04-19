@@ -77,6 +77,30 @@ code {
   width: 90%;
 }
 
+#Body h3 {
+  background-color: var(--darkgray);
+}
+
+#Quickness h3 {
+  background-color: var(--darkyellow);
+}
+
+#Stength h3 {
+  background-color: var(--darkred);
+}
+
+#Intelligence h3 {
+  background-color: var(--darkaqua);
+}
+
+#Willpower h3 {
+  background-color: var(--darkpurple);
+}
+
+#Charisma h3 {
+  background-color: var(--darkgreen);
+}
+
 
 
 
