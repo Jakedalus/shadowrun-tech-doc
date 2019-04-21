@@ -18,7 +18,7 @@
 
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth;
+/*  scroll-behavior: smooth;*/
 
 }
 
@@ -62,10 +62,119 @@ main {
   padding: 30px;
 }
 
+section {
+  margin-bottom: 80px;
+}
+
+section div {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 700px;
+}
+
+/*Add line only to elements with more .skill child sections*/
+#Attributes_and_Skills div.parent:before {
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: -50px;
+  content: "";
+  width: 4px;
+  background: var(--aqua);
+}
+
+/*Remove line from the last section so no dangling lines*/
+#Attributes_and_Skills div.last:before {
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: -100px;
+  content: "";
+  width: 4px;
+  background: black;
+}
+
+/*Deal with the weird dangling lines in the Drone sections*/
+#Attributes_and_Skills div.dangle:before {
+  position: absolute;
+  top: -92%;
+  bottom: 0;
+  left: -150px;
+  content: "";
+  width: 4px;
+  background: black;
+}
+
+
+#Attributes_and_Skills div.dangle:after {
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: -100px;
+  content: "";
+  width: 4px;
+  background: black;
+}
+
+#Attributes_and_Skills div h4:before {
+  position: absolute;
+  left: -100px;
+  right: 750px;
+  top: 8px;
+  content: "";
+  height: 4px;
+  background: var(--aqua);
+/*  background: red;*/
+  z-index: 5;
+}
+
+
+/*Add cirlce to each new section*/
+#Attributes_and_Skills div h4:after, #Attributes_and_Skills div h3:after  {
+  position: absolute;
+/*  background: red;*/
+  background: var(--aqua);
+  left: -53px;
+  top: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#Attributes_and_Skills div h3:after {
+  top: 8px;
+}
+
 h2 {
   background-color: var(--aqua);
   color: var(--lightaqua);
-  padding: 5px;
+  padding: 5px 5px 20px 5px;
+  position: relative;
+}
+
+/*Add line on top of h2 background*/
+h2:before {
+  content: "";
+  width: 650px;
+  height: 10px;
+  background-color: var(--aqua);
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+/*Create the slant at the end of the line*/
+h2:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid var(--aqua);
+  position: absolute;
+  top: -6px;
+  left: 640px;
+  transform: rotate(45deg);
 }
 
 code {
@@ -77,29 +186,57 @@ code {
   width: 90%;
 }
 
-#Body h3 {
+#Archetypes h3, #Attributes_and_Skills h3 {
+  padding: 5px;
+  position: relative;
+}
+
+#Body h3, #Rigger h3 {
   background-color: var(--darkgray);
 }
 
-#Quickness h3 {
+#Quickness h3, #Street_Samurai h3 {
   background-color: var(--darkyellow);
 }
 
-#Stength h3 {
+#Stength h3, #Mage h3 {
   background-color: var(--darkred);
 }
 
-#Intelligence h3 {
-  background-color: var(--darkaqua);
+#Intelligence h3, #Decker h3, #None h3  {
+  background-color: var(--aqua);
 }
 
-#Willpower h3 {
+#Willpower h3, #Physical_Adept h3 {
   background-color: var(--darkpurple);
 }
 
-#Charisma h3 {
+#Charisma h3, #Shaman h3 {
   background-color: var(--darkgreen);
 }
+
+/*
+h3:before {
+  content: "";
+  width: 650px;
+  height: 10px;
+  background-color: var(--aqua);
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+h3:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid var(--aqua);
+  position: absolute;
+  top: -6px;
+  left: 640px;
+  transform: rotate(45deg);
+}
+*/
 
 
 
