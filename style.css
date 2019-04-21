@@ -382,6 +382,7 @@ h3:after {
     width: 100%;
     border-bottom: 4px solid var(--lightaqua);
     border-right: 0;
+    padding: 0 20px;
   }
   
   h1 {
