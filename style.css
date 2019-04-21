@@ -287,7 +287,7 @@ h3:after {
     width: 400px;
   }
 
-  section div {
+  div {
     width: 600px;
   }
 }
@@ -323,7 +323,7 @@ h3:after {
     width: 300px;
   }
 
-  section div {
+  div {
     width: 500px;
   }
 }
@@ -359,7 +359,7 @@ h3:after {
     width: 250px;
   }
 
-  section div {
+  div {
     width: 400px;
   }
 }
@@ -415,8 +415,44 @@ h3:after {
     width: 450px;
   }
 
-  section div {
+  div {
     width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 400px;    
+  }
+  
+  /*Add line on top of h2 background*/
+  h2:before {
+    width: 300px;
+  }
+
+  /*Create the slant at the end of the line*/
+  h2:after {
+    left: 280px;
+  }
+  
+  /*Horizontal line in tree*/
+   #Attributes_and_Skills div h4:before {
+    position: absolute;
+    left: -70px;
+    right: 400px;
+  }
+  
+  p {
+    width: 300px;
+  }
+
+  li {
+    width: 200px;
+  }
+
+  div {
+    width: 350px;
+    margin-left: 20px;
   }
 }
 
