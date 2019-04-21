@@ -110,7 +110,7 @@ div {
 /*Deal with the weird dangling lines in the Drone sections*/
 #Attributes_and_Skills div.dangle:before {
   position: absolute;
-  top: -92%;
+  top: -80%;
   bottom: 0;
   left: -150px;
   content: "";
@@ -279,6 +279,8 @@ h3:after {
     right: 650px;
   }
   
+  
+  
   p {
     width: 550px;
   }
@@ -351,6 +353,10 @@ h3:after {
     right: 450px;
   }
   
+  #Attributes_and_Skills div.dangle:before {
+    top: -81%;
+  }
+  
   p {
     width: 350px;
   }
@@ -407,6 +413,10 @@ h3:after {
     right: 650px;
   }
   
+  #Attributes_and_Skills div.dangle:before {
+    top: -80%;
+  }
+  
   p {
     width: 550px;
   }
@@ -440,6 +450,24 @@ h3:after {
     position: absolute;
     left: -70px;
     right: 400px;
+  }
+  
+  /*Remove line from the last section so no dangling lines*/
+  #Attributes_and_Skills div.last:before {
+    left: -70px;
+  }
+  
+  #Attributes_and_Skills div.dangle:before {
+    top: -60%;
+    left: -90px;
+  }
+
+
+  #Attributes_and_Skills div.dangle:after {
+    top: 8px;
+    bottom: 0;
+    left: -70px;
+
   }
   
   p {
