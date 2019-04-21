@@ -28,6 +28,7 @@ body {
   background-color: var(--darkaqua);
   background-color: black;
   color: var(--offwhite);
+  overflow-x: hidden;
 }
 
 nav {
@@ -64,9 +65,20 @@ main {
 
 section {
   margin-bottom: 80px;
+  width: 800px;
 }
 
-section div {
+p, li {
+  width: 650px;
+  line-height: 22px;
+}
+
+li {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+div {
   position: relative;
   margin-top: 50px;
   margin-left: 50px;
@@ -117,6 +129,7 @@ section div {
   background: black;
 }
 
+/*Horizontal line in tree*/
 #Attributes_and_Skills div h4:before {
   position: absolute;
   left: -100px;
@@ -184,6 +197,11 @@ code {
   border-left: 6px solid var(--lightaqua);
   color: var(--lightaqua);
   width: 90%;
+  
+}
+
+code li {
+  margin-bottom: 0;
 }
 
 #Archetypes h3, #Attributes_and_Skills h3 {
@@ -239,7 +257,34 @@ h3:after {
 */
 
 
+@media (max-width: 1279px) {
+  
+  section {
+    width: 650px;    
+  }
+  
+  /*Add line on top of h2 background*/
+  h2:before {
+    width: 450px;
+  }
 
+  /*Create the slant at the end of the line*/
+  h2:after {
+    left: 440px;
+  }
+  
+  p {
+    width: 550px;
+  }
+
+  li {
+    width: 400px;
+  }
+
+  section div {
+    width: 600px;
+  }
+}
 
 
 
